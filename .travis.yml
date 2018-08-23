@@ -12,7 +12,7 @@ matrix:
     - env: TOXENV=jshint
       before_install: npm install -g jshint
     - env: TOXENV=csslint
-      before_install: npm install -g csslint
+      before_install: npm install -g CSSLint/parser-lib#12c48caf75c8bc2c csslint
     # Python version specific
     - python: '2.7'
       env: TOXENV=py27-integration
